@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Service">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccentLight"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/servicehead"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Services"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"/>
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/text0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/ser0"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/head1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Shelter and Rescue Home"
+            android:textSize="23sp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/a" />
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/ser1"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/head2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Ambulatory Services"
+            android:textSize="23sp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/b" />
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/ser2"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/head3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="10dp"
+            android:text="Health Camps"
+            android:textSize="23sp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/c" />
+
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/ser3"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/head4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Humane Education"
+            android:textSize="23sp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/d" />
+
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/ser4"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/head5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Cruelty Cases"
+            android:textSize="23sp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/e" />
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/ser5"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/head6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="ABC and ARV program"
+            android:textSize="23sp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/f" />
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/text6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/ser6"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/head7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Night Emergency Services"
+            android:textSize="23sp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/text7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/ser7"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/head8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Snake Care Services"
+            android:textSize="23sp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/text8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/ser8"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"/>
+    </LinearLayout>
+
+
+</ScrollView>

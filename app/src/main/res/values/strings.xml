@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">Karuna</string>
+
+    <string name="para1">
+        The organization was established in the year 1888 as \'Bangalore Society for the Prevention of Cruelty to Animals\' and was registered as a charitable society on 24th May 1916. The name of the organization has changed to \'Karuna Animal Welfare Association of Karnataka\' on 30th September 2001. Karuna is a member of WSPA, England and North Shore Animal League, USA.\n\n
+Karuna offers the services like providing Shelter and Rescue Home to Animals, Ambulatory Services, Health Camps, Human Education, Cruelty cases, ABC / ARV Programme, Night Emergency Services and Snake care Service in Karnataka India.\n
+
+
+    </string>
+
+
+    <string name="msgpara1">
+        After serving the organization in the capacity of President, for over two decades, I decided to come out from active involvement in shelter management. Looking out for a worthy successor/replacement, our former Vice President, Smt. B. C. Girija evinced interest and she took up the onus of President of Karuna, which was endorsed by the general members of Karuna. \n\n
+        Developing Karuna to reach the present heights was an enormous task, which was achieved with the active support of senior members such as Drs. A. W. Subbaiah and P. V. Yathinder and many more. \n\n
+        Now the financial position of Karuna has stabilized, improved and is sustaining itself through a good inflow of philanthropic donations. Further the welfare measures taken up to benefit of staff members is well appreciated. A well experienced management committee is capable of looking after all the activities ofthe organization.\n\n
+        In recent times, activities such as training programmes for school children and the general public was largely attended and our volunteer force is augmented by the inflow trainees.\n\n
+        The support and guidance of the Veterinary College, Bangalore and Karnataka Veterinary and Fisheries Sciences university, Bidar is much appreciated and put to good use. \n\n
+        Overall, I wish Karuna, its members and staffthe best in all their endeavours.\n\n
+    </string>
+
+    <string name="msgpara2">
+        The oldest Animal Welfare organisation in the city of Bangalore is KARUNA, which was earlier known as the Bangalore Society for Prevention of Cruelty to Animals. The organisation is rendering many services such as a shelter for abandoned, sick and injured animals. \n\n
+        It also conducts animal birth control operations for both owned and ownerless dogs. It conducts camps wherein Anti Rabies vaccinations are undertaken. It also promotes Indian Breeds of Dogs such as Mudhol Hound, Pashmi etc., The Organisation conducts an annual Animal Welfare Fortnight marking the birth anniversary of the 12thCentury Saint Philosopher, Sri Basavanna, spreading the message of being kind to animals all over Karnataka, parts of India and overseas.\n\n
+        To meet the financial requirements, the organisation needs about ten lakhs of rupees for staff salaries, feeding expenses, medicines etc., per month which needs to be generated through donations etc.,. On an average about 400 animals and birds of different species such as dogs, cats, birds and large animals are given medical attendance, food and are been managed at the KARUNA Animal Shelter. \n\n
+        KARUNA also attends to Animal Birth Control operations for dogs and cats, which is gaining popularity among the pet owners and the general public. Rabies control programme has given the desired effect and the general public look out and wait for our free vaccination programmes. Summer camps for school children on animal welfare have become an annual feature and parents are willing to send their wards to the training programme, the main reason is to rope in the young children to the animal welfare movement at a very young age which is giving expected results. \n\n
+        The number of cruelty cases has considerably reduced due to extensive compassionate programmes on animal welfare themes. The technical staff headed by Dr. Sayeed and Dr. Lokesh is doing exemplary work. The office staff headed by Smt. Pushpa and Rangalakshmi along with the front office staff comprising of Mrs. Manjula and Mrs. Annapurna are to be mentioned for their commitment. \n\n
+        The Shelter maintenance staff shoulder the difficult responsibility of taking care, feeding, and looking after the sheltered animals. I profusely thank the Dean and Faculty, Veterinary College, Bangalore, The Vice Chancellor and the officers of the Karnataka Veterinary Animal and Fisheries Sciences University, Bidar, for their guidance and cooperation. also thank the Management committee and members of KARMA foractively participating in day to day functioning of KARUNA.\n\n
+    </string>
+
+    <string name="ser0"> Services at Karuna- \n
+        1. Shelter and Rescue Home for Animals.\n 2. Ambulatory Services.\n 3. Health Camps.\n 4. Humane Education.\n 5. Cruelty cases.\n 6. ABC / ARV Programme.\n 7. Night Emergency Services.\n 8. Snake care Service.\n
+    </string>
+
+    <string name="ser1">
+        Today\'s need for the suffering stray animals is a shelter over their head and humane control over their increasing population. This is met to a certain extent by Karuna Animal Shelter cum Rescue Home at Veterinary College Campus, Hebbal, Bangalore - 24. This shelter accommodates about 400 animals of different species of any one time.\n
+    </string>
+    <string name="ser2">
+        Ambulatory services are provided by KARUNA to pick up sick, injured, accident and disabled animals and they are shifted to Animal Shelter cum Rescue Home for treatment and necessary care. The Association has got well experienced Veterinary Doctors for conducting surgery, treatment and care of animals at the Animal Shelter.\n
+    </string>
+
+    <string name="ser3">KARUNA conducts a number of health and vaccination camps in rural areas to provide necessary medical assistance and guidance to the animal owners/ farmers. In coordination with its branches, Karuna also conducts a number of Educational Programmes and Awareness camps in rural areas of the state.\n</string>
+
+    <string name="ser4">KARUNA conducts lectures, Audio Visual shows, Seminars, workshops to bring awareness about animal welfare for children, teaching fraternity, animal welfare volunteers, technocrats and the general public. KARUNA conducts Spot Painting , Elocution, Debate, Essay writing competitions for school students to bring awareness about Animal Welfare and to involve them in animal welfare movement. The association also conducts \'Pet Adoptathon\' programmes to provide dogs/cats/puppies/kittens and other animals to loving homes.\n</string>
+
+    <string name="ser5">KARUNA attends a number of cruelty cases to stop the cruelties perpetrated on animals and educate people to take better care of their animals. Karuna in coordination with the police and forest department is trying its best to stop ritual sacrifice of animals at places of worship and in Villages. In cooperation with Government agencies, KARUNA is rescuing a number of wild animals which are rehabilitated in forest areas.\n</string>
+
+    <string name="ser6">KARUNA conducts Animal Birth Control operations and Anti Rabies Vaccination for stray dogs/pups to control the increase in stray dog population and to prevent the dreaded disease Rabies. In cooperation with Bangalore Mahanagara Palike the Association conducts Anti Rabies Vaccination and licensing camps in various parts of Bangalore city.\n</string>
+
+    <string name="ser7">To provide effective night time emergency services, the Association has identified veterinarians from different zones of Bangalore.\n</string>
+
+    <string name="ser8">KARUNA is providing snake care services with the cooperation of volunteers and attending to distress calls from the public for catching/ retrieving snakes. After catching the snakes, they are rehabilitated in forest areas.\n</string>
+
+    <string name="acthead1">ACTIVITIES</string>
+    <string name="acthead2">Services rendered by KARUNA \n</string>
+    <string name="actpara1">KARUNA a Century old animal welfare organization considers its first and foremost humane approach as the "Immediate response to the injured, to those with accidents and the uncared for dogs, puppies, cats and kittens" that are brought by animal lovers seen on roads and lanes of the City as its primary concern. To alleviate their pain and suffering by attending to them at once by way of providing first aid with whatever possible resources available at the shelter. \n</string>
+    <string name="actpara2">1. To attend accident cases round the clock that are brought to the shelter and also pick up animals from the place of accident. \n\n
+2. To Provide technical know how care and management of animals given for adoption. \n\n
+3. To address all cruelty cases caused to animals under the PCA Act 1960 with the help of police authorities both inside the city and elsewhere. \n\n
+4. To neuter street dog and cats that are brought to the shelter by Resident Welfare Associations and individuals. \n\n
+5. To attend cases referred by KARUNA volunteers pertaining to Animal Welfare activities. \n\n
+6. Organising vaccination and deworming of cats and dogs during national festivals and events of International Animal Welfare importance. \n\n
+7. Organising vaccination of dogs and cats in animal health camps that are arranged in a few prominent places of Karnataka and other states of the country . \n\n
+8. To inculcate compassion and love for animals in the young minds of growing children from their childhood. KARUNA arranges for Humane Education programmes "like Spot Painting, Essay writing, Elocution, Animal Costume and quiz competitions, emphasizing animal welfare subjects. \n
+9. Vaccination against dreaded diseases like distemper, Leptospira etc., to all the Mudhol Dogs and puppies in Mudhol taluk of Bagalkot district, the beneficiaries being the care givers of these pets who hail from economically weaker sections, backward and socially neglected communities. \n
+9a.To motivate farmers to take up agricultural subsidiary occupations, such as dairying, sheep, goat, pig and rabbit farming and also breeding of Indian dogs to improve their economic status. \n
+10. Rescuing of animals in distress that are trapped in inescapable and hazardous places like Tunnels, drains, tree and building tops, rough terrain and deep wells to the extent possible with the cooperation of animal lovers. \n
+</string>
+    <string name="actpara3">11.	Providing emergency ferrying to reach sick and comatose small animals to hospital in extra ordinary cases and also providing transportation to a shelter and treatment to large animals like cattle brought to the shelter by animal welfare groups. \n\n
+12. Helping animal lovers to adopt and nurture needy dogs and cats by arranging adoption camps and educating such adopters on pet management. \n\n
+13. Occasionally there are late night distress calls from pet owners when their pets are sick, such calls have been attended by advising them suitably. \n\n
+14. De-stressing "Pet therapy" by allowing pet owners and children to spend some time and play with our shelter dogs and cats which probably reduces their stress and rejuvenates them . \n\n
+15. Providing feed and shelter to birds and small animals that have been rescued from trees, roof tops and other places till they are picked up by authorized NGOs. \n\n
+ 16. Adoption of pets is done after thoroughly confirming the family inclination towards pet keeping and subsequent follow-up by physical verification. \n\n
+ 17. Arranging short term training programmes for high school children, pet owners and public in pet keeping and animal welfare programmes. \n\n
+18. Arranging outdoor trips to animal houses, farms, rehabilitation centers and Biological parks for school children and animal lovers. \n\n
+19. Helping the declining population of sparrows and other birds by providing them food grains, water and perching facilities in some places to facilitate breeding. \n\n
+20. To provide shelter for the animals rescued from ritual sacrifice. \n
+</string>
+    <string name="actpara4">21. To provide shelter and medical care for rescued domestic animals and birds. \n\n
+22. We Provide \"Home Away Home\" facility for short periods to facilitate the owners to take short breaks. \n\n
+23. Arranging full help to those that aspire to work as \"Animal Volunteers\" \n\n
+24. KARUNA provides opportunity to volunteer services by post graduate students of Veterinary College to pursue their higher studies.\n\n
+        25. KARUNA conducts number of programmes to bring awareness about Animal Welfare and Ritual sacrifice of animals. \n\n
+26. Seminars are organized about awareness of animals being used for research. \n\n
+27. KARUNA educates children and general public against use of animals in sports and entertainment and to adhere to the provisions of PCA Act 1960. \n\n
+28. Nithya Kaarunya feeding programme of shelter animals under which a person can feed animals on occasions such as their birthdays, anniversaries etc., of their beloved ones and pets once a year. \n\n
+29. Motivating animal owners to be responsible pet owners by following civic and Government rules and regulation. \n\n
+30. Periodical organisation of workshops and training camps for the benefit of pet lovers to learn proper management practices. \n
+</string>
+    <string name="actpara5">
+        31. KARUNA provides place for the respectful burial of pet animals with the help of animal volunteers. \n\n
+32. KARUNA provides shelter for retired police dogs and animals rescued from the houses of persons involved in police cases when they are in custody. \n\n
+33. KARUNA educates animal owners in proper transportation of animals by following rules and regulations to provide comfortable and safe journey of animals. \n\n
+34. KARUNA also oversees animals used in film industry so that no cruelty is inflicted and to follow the PCA Act 1960 during the shooting of films. \n\n
+35. KARUNA in co operation with Veterinary College provides blood transfusion facility to needy animals.\n\n
+        36. KARUNA liaises with Forest department, BBMP and Specialized NGOs for the rescue of Wildlife. \n\n
+37. Any unjust Act on animals or Wildlife which interferes in the well being of animals is attended. \n\n
+38. People can donate at the shelter in cash-or kind for feeding and maintenance of animals. \n\n
+39. KARUNA urges the authorities to take up construction of modern abattoirs to reduce the suffering of food animals and adopt humane methods of slaughter and use transportation specially meant for animals. \n\n
+40. Society at large is required to see that animals live comfortably and happily on par with themselves. \n
+</string>
+    <string name="name">KARUNA ANIMAL WELFARE ASSOCIATION OF KARNATAKA</string>
+    <string name="president_message">PRESIDENT MESSAGE</string>
+    <string name="patron_message">PATRON MESSAGE</string>
+    <string name="objectives">OBJECTIVES</string>
+    <string name="services">SERVICES</string>
+    <string name="contact">CONTACT</string>
+    <string name="logo">logo</string>
+    <string name="phone">
+        EMERGENCY CONTACT:\n 080-22860205, 080-23411181, 080-23511329
+    </string>
+
+    <string name="contactpara">
+        Karuna Animal Welfare Association of Karnataka\n
+        Kasturba Road, Bangalore-560 001\n
+        Telephone: +91-080- 22860205\n
+        Email : contact@karunaanimalwelfare.org\n\n
+        Animal Shelter:\n
+        UAS Campus, Hebbal, Bangalore - 560 024.\n
+        Telephone: 080-23511329
+
+    </string>
+    <string name="o1">Patron</string>
+    <string name="pattext">Animal Rights and Welfare Enthusiast, President - Society for Indian Breeds of Dogs, Patron -Mysore Kennel Club, Chairman and Managing Trustee - KARUNA Trust for National Progress, Founder President - Pet Practitioners Association of Karnataka, Member - State Animal Welfare Board, Former Member - Animal Welfare Board of India, Former Vice President - Veterinary Council of India, Former Secretary General - Indian Veterinary Association.\n</string>
+    <string name="o2">President</string>
+    <string name="prestext">Animal Welfare and Social Activist, Lion and Lioness Past Associate Chairperson Dist 317F Members, Member Trustee - KTNP, involved in Welfare of Rural Children, Homemaker.\n</string>
+    <string name="otext2">Actively involved in the Animal Welfare Movement, Vice Patron- Mysore Kennel club, Vice President and trustee - Karuna Trust for National Progress (KNTP). Vice Patron - Society for Indian Breeds of Dogs\n</string>
+    <string name="o3">Actively involved in the Animal Welfare Movement, Advisory Committee Member and Founder Secretary, Society for Indian Breeds of Dogs. Former Editor- Pet India.\n</string>
+    <string name="o4">Animal Welfare Activist, President -UAS Campus School, Former Secretary UAS Alumni Association, Professor Agricultural extension GKVK, Hon. Secretary - Karuna Trust for National Progress.\n</string>
+    <string name="o5">Animal Welfare Activist, Social worker, Trustee - Karuna Trust for National Progress, Former Public Relations Officer - KPCL.\n</string>
+    <string name="o6"><![CDATA[Former Officer of the Department of Animal Husbandry & Veterinary Services, Animal Welfare Activist and President, Society for Indian breeds of dogs.\n]]></string>
+    <string name="o7">Rural Anirnal Welfare Activist, involved in charitable and endowment trusts. Supports Education of BPL children in rural areas.\n</string>
+    <string name="objectivetext">Objectives of KARUNA: \n\n 1. Prevention of cruelty to animals and to secure their welfare.\n\n 2. Building and maintaining shelters and rescue homes for animals.\n\n 3. Provision of Ambulances for animals in distress.\n\n 4. Humane Education to bring! spread awareness about animals. \n\n 5. Holding of periodical animal shows and awarding prizes to owners of animals which are well looked after. \n\n 6. Organizing Painting, Essay, Elocution and other competitions on animal themes to promote kindness to animals among children. \n\n 7. Conserve, protect and promote endangered species of animals. \n\n 8. Organizing Animal Welfare Training programmers to volunteers and awarding certificates. \n\n 9. Be kind to Animals- stop ritual sacrifice of Animals. \n\n 10. Stop overloading of draught Animals. \n\n</string>
+    <string name="karunagate">KarunaGate</string>
+
+</resources>

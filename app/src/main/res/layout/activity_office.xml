@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Office">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccentLight"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/officehead"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary"
+            android:fontFamily="cursive"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="OFFICE BEARERS"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <!--patron-->
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="2.5dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ramakrishna"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="DR. B. C. RAMAKRISHNA\n BVSc., PG (Germany)\n Patron"
+            android:gravity="center_horizontal"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/pattext"
+            android:gravity="center_horizontal"
+            android:textSize="13sp" />
+
+
+        <!--vicepatron-->
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="2.5dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/subhayya"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="DR. A. W. SUBBAIAH\n MVSc., PG (Denmark)\n Vice Patron"
+            android:gravity="center_horizontal"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/otext2"
+            android:gravity="center_horizontal"
+            android:textSize="13sp" />
+
+
+        <!--yathinder-->
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="2.5dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/yat"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="DR. P. V. YATHINDER, MVSc.\n Advisory Committee Member"
+            android:gravity="center_horizontal"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/o3"
+            android:gravity="center_horizontal"
+            android:textSize="13sp" />
+
+
+        <!--suresha-->
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="2.5dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/suresh"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="DR. S. V. SURESHA, PhD.\n Advisory Committee"
+            android:gravity="center_horizontal"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/o4"
+            android:gravity="center_horizontal"
+            android:textSize="13sp" />
+
+        <!--president-->
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="2.5dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/girija"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Mrs. B. C. GIRIJA, MA.\n President"
+            android:gravity="center_horizontal"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/prestext"
+            android:gravity="center_horizontal"
+            android:textSize="13sp" />
+
+        <!--brsid-->
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="2.5dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/bmsid"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Mr. B.R. SIDDAPPA, MA.\n Vice President"
+            android:gravity="center_horizontal"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/o5"
+            android:gravity="center_horizontal"
+            android:textSize="13sp" />
+
+
+        <!--jaya-->
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="2.5dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/jayaramayha"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="DR. D. T. JAYARAMAIAH, B.Sc., BVSc.\n Vice President"
+            android:gravity="center_horizontal"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/o6"
+            android:gravity="center_horizontal"
+            android:textSize="13sp" />
+
+
+        <!--smsid-->
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="2.5dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/smsid"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Mr. S. M. SIDDAPPA, B.Sc.\n Honorable Treasurer"
+            android:gravity="center_horizontal"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/o7"
+            android:gravity="center_horizontal"
+            android:textSize="13sp" />
+    </LinearLayout>
+</ScrollView>
