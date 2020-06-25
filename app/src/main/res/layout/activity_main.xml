@@ -12,14 +12,15 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorAccent">
+        android:id="@+id/headerhome">
 
         <LinearLayout
             android:id="@+id/head"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:background="@color/colorPrimary"
-            android:orientation="horizontal" />
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"/>
 
         <ImageView
             android:layout_marginTop="10dp"
@@ -46,10 +47,12 @@
     </RelativeLayout>
 
     <ViewFlipper
+        android:layout_below="@+id/headerhome"
         android:layout_width="380dp"
         android:layout_height="200dp"
-        android:layout_gravity="center_horizontal"
-        android:id="@+id/v_flipper"/>
+        android:layout_centerHorizontal="true"
+        android:id="@+id/v_flipper"
+        android:layout_margin="5dp"/>
 
     <TextView
         android:id="@+id/phone"
@@ -60,11 +63,11 @@
         android:textColor="@color/red"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:layout_below="@id/v_flipper"/>
-
-
+        android:layout_below="@id/v_flipper"
+        android:layout_margin="10dp"/>
 
     <GridLayout
+        android:layout_below="@+id/phone"
         android:id="@+id/mainGrid"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -72,7 +75,6 @@
         android:alignmentMode="alignMargins"
         android:columnOrderPreserved="false"
         android:layout_marginTop="20dp"
-
         android:rowCount="3"
         android:columnCount="3">
 
@@ -91,7 +93,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
                 android:orientation="vertical">
@@ -125,7 +127,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
                 android:orientation="vertical">
@@ -159,7 +161,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
                 android:orientation="vertical">
@@ -189,7 +191,8 @@
             android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"
             app:cardCornerRadius="8dp"
-            app:cardElevation="8dp">
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="@color/btn2">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -222,7 +225,8 @@
             android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"
             app:cardCornerRadius="8dp"
-            app:cardElevation="8dp">
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="@color/btn2">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -255,7 +259,8 @@
             android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"
             app:cardCornerRadius="8dp"
-            app:cardElevation="8dp">
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="@color/btn2">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -290,7 +295,8 @@
             android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"
             app:cardCornerRadius="8dp"
-            app:cardElevation="8dp">
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="@color/btn">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -323,7 +329,8 @@
             android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"
             app:cardCornerRadius="8dp"
-            app:cardElevation="8dp">
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="@color/btn">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -356,7 +363,8 @@
             android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"
             app:cardCornerRadius="8dp"
-            app:cardElevation="8dp">
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="@color/btn">
 
             <LinearLayout
                 android:layout_width="match_parent"

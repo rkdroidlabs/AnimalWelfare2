@@ -13,18 +13,17 @@
         android:orientation="vertical">
 
         <TextView
-
             android:id="@+id/objedtivehead"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_alignParentTop="true"
+            android:layout_height="@dimen/abc_action_bar_default_height_material"
             android:background="@color/colorPrimary"
-            android:fontFamily="cursive"
             android:gravity="center_horizontal|center_vertical"
             android:text="Objectives"
             android:textColor="@color/white"
             android:textSize="30sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            tools:ignore="PrivateResource" />
 
         <me.biubiubiu.justifytext.library.JustifyTextView
             android:layout_below="@+id/objedtivehead"

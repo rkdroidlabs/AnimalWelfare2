@@ -9,7 +9,7 @@
     <TextView
         android:id="@+id/contacthead"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
         android:background="@color/colorPrimary"
         android:gravity="center_horizontal|center_vertical"
         android:text="CONTACT US"
