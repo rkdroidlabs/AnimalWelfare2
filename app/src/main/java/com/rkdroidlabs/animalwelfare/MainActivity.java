@@ -130,10 +130,10 @@ public class MainActivity extends AppCompatActivity {
         int images[] = {R.drawable.s1, R.drawable.h1, R.drawable.s2, R.drawable.s3, R.drawable.s4, R.drawable.s5, R.drawable.s6, R.drawable.s7};
         v_flipper = findViewById(R.id.v_flipper);
 
-       /* for (int i=0; i <images.length; i++) {
+        for (int i=0; i <images.length; i++) {
 
             flipperImages(images[i]);
-        }*/
+        }
 
         for (int image: images ) {
             flipperImages(image );

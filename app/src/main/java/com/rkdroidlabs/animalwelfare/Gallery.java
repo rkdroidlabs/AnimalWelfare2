@@ -27,7 +27,6 @@ public class Gallery extends AppCompatActivity {
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         mFirebaseDatabase = FirebaseDatabase.getInstance();
-        FirebaseDatabase.getInstance().setPersistenceEnabled(true);
         mRef = mFirebaseDatabase.getReference("Data");
     }
 

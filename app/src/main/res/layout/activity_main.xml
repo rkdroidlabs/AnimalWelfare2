@@ -19,21 +19,20 @@
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:background="@color/colorPrimary"
-            android:orientation="horizontal"
-            android:layout_marginBottom="10dp"/>
+            android:orientation="horizontal" />
 
         <ImageView
             android:layout_marginTop="10dp"
             android:id="@+id/logo"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:layout_marginStart="30dp"
-            android:layout_marginLeft="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
             android:background="@color/colorPrimary"
             android:src="@drawable/logo" />
 
         <TextView
-            android:layout_width="250dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="18dp"
             android:layout_toEndOf="@+id/logo"
@@ -43,12 +42,11 @@
             android:textSize="20sp"
             android:textAlignment="center"
             android:gravity="center_horizontal" />
-
     </RelativeLayout>
 
     <ViewFlipper
         android:layout_below="@+id/headerhome"
-        android:layout_width="380dp"
+        android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_centerHorizontal="true"
         android:id="@+id/v_flipper"
@@ -61,27 +59,25 @@
         android:gravity="center"
         android:text="@string/phone"
         android:textColor="@color/red"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_below="@id/v_flipper"
-        android:layout_margin="10dp"/>
+        android:textSize="14sp"
+        android:textStyle="bold"/>
 
     <GridLayout
         android:layout_below="@+id/phone"
         android:id="@+id/mainGrid"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="8"
+        android:layout_weight="10"
         android:alignmentMode="alignMargins"
         android:columnOrderPreserved="false"
-        android:layout_marginTop="20dp"
         android:rowCount="3"
-        android:columnCount="3">
+        android:columnCount="3"
+        android:padding="14dp">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardobjective"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_marginLeft="16dp"
@@ -92,20 +88,20 @@
             app:cardBackgroundColor="@color/btn">
 
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
                     android:text="Objectives"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
-                    android:textSize="13sp"
+                    android:textSize="11sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -114,8 +110,8 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardservices"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_marginLeft="16dp"
@@ -126,20 +122,20 @@
             app:cardBackgroundColor="@color/btn">
 
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
                     android:text="Services"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
-                    android:textSize="13sp"
+                    android:textSize="11sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -148,8 +144,8 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardoffice"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_marginLeft="16dp"
@@ -160,20 +156,20 @@
             app:cardBackgroundColor="@color/btn">
 
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
                     android:text="Office"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
-                    android:textSize="13sp"
+                    android:textSize="11sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -183,8 +179,8 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardactivity"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_marginLeft="16dp"
@@ -195,20 +191,20 @@
             app:cardBackgroundColor="@color/btn2">
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
                     android:text="Activities"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
-                    android:textSize="13sp"
+                    android:textSize="11sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -217,8 +213,8 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardgallery"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_marginLeft="16dp"
@@ -229,20 +225,20 @@
             app:cardBackgroundColor="@color/btn2">
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
                     android:text="Gallery"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
-                    android:textSize="13sp"
+                    android:textSize="11sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -251,8 +247,8 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardcontact"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_marginLeft="16dp"
@@ -264,7 +260,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
                 android:orientation="vertical">
@@ -276,7 +272,7 @@
                     android:text="Contact"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
-                    android:textSize="13sp"
+                    android:textSize="11sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -287,8 +283,8 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardmessage1"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_marginLeft="16dp"
@@ -299,14 +295,14 @@
             app:cardBackgroundColor="@color/btn">
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
                     android:text="Patron Message"
@@ -321,8 +317,8 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardmessage2"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_marginLeft="16dp"
@@ -333,14 +329,14 @@
             app:cardBackgroundColor="@color/btn">
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
                     android:text="President Message"
@@ -355,8 +351,8 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardvisit"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_marginLeft="16dp"
@@ -367,20 +363,20 @@
             app:cardBackgroundColor="@color/btn">
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
                     android:text="Visit Us"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
-                    android:textSize="13sp"
+                    android:textSize="11sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
